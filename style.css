@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28.4444px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.navi {
+  text-decoration: none;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.navi li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navi a:link,
+.navi a:visited {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 15px;
+  color: #18A0FB;
+}
+
+.navi a:hover,
+.navi a:active {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  transition: .25s ease-in;
+}
+
+.reg {
+  padding: 10px 20px;
+  background: #18A0FB;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.signUP {
+  position: relative;
+  width: 95%;
+  height: 600px;
+  padding-top: 50px;
+}
+
+.textAboutUs {
+  position: absolute;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 80px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin: 100px 0 0 200px;
+}
+
+.loginForm {
+  float: right;
+  display: block;
+  width: 622px;
+  height: 439px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: left;
+  padding: 40px 0 0 64px;
+}
+
+span h1 {
+  margin: 30px 0 30px -170px;
+  text-align: center;
+}
+
+.loginForm #email,
+.loginForm #pass,
+.loginForm #name {
+  margin: 5px;
+  width: 494px;
+  height: 40px;
+}
+
+.loginForm #pass {
+  margin-bottom: 20px;
+}
+
+.loginForm .reg {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#inform {
+  margin-top: 10px;
+}
+
+.inform {
+  font-family: 'Montserrat';
+  font-style: normal;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 40px 0 50px 80px;
+}
+
+.snap {
+  left: 80px;
+  position: relative;
+  width: 750px;
+  height: 65px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+
+.sed {
+  width: 750px;
+  height: 220px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 7px;
+}
+
+.sed h3 {
+  margin: 0px 0 20px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.sed p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 35px;
+}
+
+.sed a p {
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #18A0FB;
+  color: #18A0FB;
+  border-radius: 6px;
+  padding: 5px 21px;
+}
+
+.sed a:link,
+.sed a:visited {
+  text-decoration: none;
+}
+
+.textFirms h4,
+.textFirms span {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+.bann {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  text-align: center;
+  width: 173px;
+  height: 76px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #e5e5e5;
+  margin: 5px 20px;
+}
+
+.connect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #F5F5F5;
+  height: 600px;
+}
+
+.textConnect {
+  width: 686px;
+}
+
+.textConnect h4 {
+  padding: 5px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+}
+
+.textConnect span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.imgConnect {
+  width: 750px;
+  height: 440px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #e5e5e5;
+}
+
+.down {
+  margin-left: 50px;
+}
+
+.downed {
+  background-color: #FFF;
+}
+
+footer {
+  padding-top: 50px;
+  height: 200px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLogo a {
+  margin: 30px 0px 30px 100px;
+}
+
+.footerLogo span {
+  width: 150px;
+  text-align: center;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28.4444px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.infFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-top: -100px;
+}
+
+.infFooter ul {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(121, 121, 121, 0.8);
+  list-style: none;
+}
+
+.block {
+  display: block;
+  height: 72px;
+  width: 173px;
+}
+
+.block li:first-child,
+.block li:first-child a:link,
+.block li:first-child a:visited {
+  padding-bottom: 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+
+.infFooter a:link,
+a:visited {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: rgba(120, 120, 120, 0.8);
+}
+
+.line {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 50px 40px;
+  border-top: 1px solid #e5e5e5d3;
+}
+
+.line .copyright {
+  float: left;
+  margin: 20px 40px;
+}
+
+.line .followUs {
+  float: right;
+  margin: 10px 40px;
+}
+
+:root {
+  --main-color: #18A0FB;
+}
+
+.navi a:link,
+.navi a:visited,
+.infFooter a:link,
+.infFooter a:visited {
+  color: var(--main-color);
+}
+
+.reg {
+  background: var(--main-color);
+}
+
+.sed a p {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
